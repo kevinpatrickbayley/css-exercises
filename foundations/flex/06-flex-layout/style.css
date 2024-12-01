@@ -5,6 +5,55 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: larger;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin-top: 10px;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+a:link {
+  color: #222222;
+}
+
+a:visited {
+  color: #feb204;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  font-size: larger;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
 }
 
 img {
